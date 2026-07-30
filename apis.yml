@@ -1,22 +1,50 @@
 aid: koro
 name: KoRo
-description: 'KoRo is a company surfaced as a portfolio company of hv-capital, partech and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'KoRo (KoRo Handels GmbH) is a Berlin-based direct-to-consumer food retailer
+  that sells nuts, dried fruit, nut butters, snacks, protein products, baking ingredients
+  and drugstore goods in bulk packaging at wholesale-style prices, shipping across Europe
+  from country storefronts in Germany (korodrogerie.de), Austria, Switzerland, France,
+  Italy and the Benelux/EU shop at koro.com. Founded in 2014 and backed by HV Capital
+  and Partech, KoRo runs a headless commerce stack — a Shopware 6 backend fronted by a
+  Nuxt storefront deployed on Vercel — and publishes its engineering work as open source
+  through the KoRoHandelsGmbH GitHub organization, including a Nitro-based Shopware
+  Store-API proxy and several Shopware 6 build-tooling packages on npm under the
+  @korodrogerie scope. KoRo publishes no public developer portal, no documented partner
+  or commerce API, and no API specifications; its Store-API surface is internal and gated
+  behind per-sales-channel access keys.'
 url: https://raw.githubusercontent.com/api-evangelist/koro/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.koro.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - hv-capital
 - partech
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- E-Commerce
+- Food and Beverage
+- Retail
+- Direct to Consumer
+- Germany
+- Shopware
+- Open Source
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +54,36 @@ maintainers:
 common:
 - type: Website
   url: https://www.koro.com/
+- type: Website
+  name: KoRo Germany (korodrogerie.de)
+  url: https://www.korodrogerie.de/
+- type: Support
+  name: KoRo Help Center
+  url: https://help.koro.com/
+- type: GitHubOrganization
+  name: KoRoHandelsGmbH
+  url: https://github.com/KoRoHandelsGmbH
+- type: TermsOfService
+  url: https://www.koro.com/bede/agb
+- type: PrivacyPolicy
+  url: https://www.koro.com/bede/datenschutz
+- type: SignUp
+  name: Customer account
+  url: https://www.koro.com/account
+- type: Packages
+  name: KoRo open source packages
+  url: packages/koro-packages.yml
+- type: WellKnown
+  name: Well-known discovery probe
+  url: well-known/koro-well-known.yml
+- type: LLMsTxt
+  name: llms.txt
+  url: llms/koro-llms.txt
+- type: DomainSecurity
+  name: Domain security posture
+  url: security/koro-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
