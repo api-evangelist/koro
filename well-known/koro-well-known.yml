@@ -1,0 +1,49 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of /.well-known/ on KoRo storefront hosts
+result: none
+notes: >-
+  No /.well-known/ discovery documents are published on any KoRo host. Every probed path
+  returned 404, including security.txt (RFC 9116). Recorded as valid negative evidence.
+hosts:
+- host: https://www.koro.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://www.korodrogerie.de
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+also_probed:
+- path: https://www.koro.com/security.txt
+  status: 404
+- path: https://www.koro.com/llms.txt
+  status: 404
+- path: https://api.koro.com/
+  status: 0
+  note: host does not resolve
+- path: https://developer.koro.com/
+  status: 0
+  note: host does not resolve
+- path: https://status.koro.com/
+  status: 0
+  note: host does not resolve
+- path: https://trust.koro.com/
+  status: 0
+  note: host does not resolve
