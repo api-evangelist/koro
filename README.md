@@ -64,14 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-KoRo (KoRo Handels GmbH) is a Berlin-based direct-to-consumer food retailer selling nuts, dried fruit, nut butters, snacks, protein products, baking ingredients and drugstore goods in bulk packaging at wholesale-style prices, shipping across Europe from country storefronts in Germany, Austria, Switzerland, France, Italy and the Benelux/EU shop at koro.com. Founded in 2014 and backed by HV Capital and Partech.
+KoRo (KoRo Handels GmbH) is a Berlin-based direct-to-consumer food retailer that sells nuts, dried fruit, nut butters, snacks, protein products, baking ingredients and drugstore goods in bulk packaging at wholesale-style prices, shipping across Europe from country storefronts in Germany (korodrogerie.de), Austria, Switzerland, France, Italy and the Benelux/EU shop at koro.com. Founded in 2014 and backed by HV Capital and Partech, KoRo runs a headless commerce stack — a Shopware 6 backend fronted by a Nuxt storefront deployed on Vercel — and publishes its engineering work as open source through the KoRoHandelsGmbH GitHub organization, including a Nitro-based Shopware Store-API proxy and several Shopware 6 build-tooling packages on npm under the @korodrogerie scope. KoRo publishes no public developer portal, no documented partner or commerce API, and no API specifications; its Store-API surface is internal and gated behind per-sales-channel access keys.
 
-**No public API.** KoRo publishes no developer portal, no partner or commerce API, and no API specifications. Its commerce backend is Shopware 6 fronted by a Nuxt storefront on Vercel; the Shopware Store API surface is internal and gated behind per-sales-channel access keys.
+**Areas:** Company · Consumer · E-Commerce · Food and Beverage · Retail · Direct to Consumer · Germany · Shopware · Open Source
 
-KoRo does publish open-source engineering work through the [KoRoHandelsGmbH](https://github.com/KoRoHandelsGmbH) GitHub organization, including a Nitro-based Shopware Store-API proxy and three Shopware 6 build-tooling packages on npm under the `@korodrogerie` scope.
+## KoRo on APIs.io
 
-- Website: https://www.koro.com/ — Germany: https://www.korodrogerie.de/
-- Help Center: https://help.koro.com/
-- GitHub: https://github.com/KoRoHandelsGmbH
+Everything profiled for KoRo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/koro/](https://apis.io/providers/koro/)** — or go straight to one of the APIs or properties below.
 
-Backed by: hv-capital, partech
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Koro Domain Security](https://apis.io/security/koro/koro-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.koro.com/)
+- [Sign up](https://www.koro.com/account)
+- [Support](https://help.koro.com/)
+- [Blog](https://www.koro.com/bede/blog)
+- [Terms of service](https://www.koro.com/bede/agb)
+- [Privacy policy](https://www.koro.com/bede/datenschutz)
+- [GitHub](https://github.com/KoRoHandelsGmbH)
+
+## API Evangelist rating
+
+**Kin Score 14.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/koro/](https://apis.io/providers/koro/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for KoRo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/koro/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
